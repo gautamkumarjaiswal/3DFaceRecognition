@@ -1,8 +1,8 @@
     %Modify workspace_add and imgFolder path
-    workspace_add = 'C:\Users\Gautams\Desktop\3DFaceRecognition-master\'; 
-    %For example 'F:\3d_images\project_3d_feature\'
+    workspace_add = 'C:\Users\system_name\drive_name\3DFaceRecognition-master\'; 
+    %Example: C:\Users\Gautams\Desktop\3DFaceRecognition-master\
     imgFolder = strcat(workspace_add,'FRGC_3D_Face_Database');
-    %For example mat3_face\data_selected
+    
 
     %gunzip image data using matlab inbuilt function if you don't have data in
     %.abs format
